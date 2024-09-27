@@ -1,0 +1,132 @@
+.divHeader {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 160, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divGrid {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-template-rows: 10px 10px 10px 10px;
+    gap: 5px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.itemGrid1 {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    background-color: white;
+    padding:10px;
+    color: rgb(207, 160, 0);
+    text-align: center;
+    border: 1px solid black;
+}
+
+.itemGrid2 {
+    grid-column: 4/7;
+    grid-row: 1/4;
+    background-color: white;
+    padding: 10px;
+    color: rgb(207, 160, 0);
+    text-align: center;
+    border: 1px solid black;
+}
+
+.itemGrid3 {
+    grid-column: 7/11;
+    grid-row: 1/4;
+    background-color: white;
+    padding: 10px;
+    color: rgb(207, 160, 0);
+    text-align: center;
+    border: 1px solid black;
+}
+
+.itemGrid4 {
+    grid-column: 11/14;
+    grid-row: 1/4;
+    background-color: white;
+    padding: 10px;
+    color: rgb(207, 160, 0);
+    text-align: center;
+    border: 1px solid black;
+}
+
+.itemGrid5 {
+    grid-column: 14/17;
+    grid-row: 1/4;
+    background-color: white;
+    padding: 10px;
+    color: rgb(207, 160, 0);
+    text-align: center;
+    border: 1px solid black;
+}
+
+.divGrid2 {
+    display: grid;
+    grid-template-columns: 300px 400px 500px;
+    grid-template-rows: 150px 150px 150px;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.gridMedio1 {
+    background-color: white;
+    grid-column: 1/2;
+    grid-row: 1/10;
+    padding: 10px;
+
+}
+
+.gridMedio2 {
+
+    background-color: white;
+    grid-column: 2/3;
+    grid-row: 1/10;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+.gridMedio3 {
+    grid-column: 3/4;
+    background-color: white;
+    grid-row: 1/10;
+    padding-left: 10px;
+    padding-top: 25px;
+
+}
+
+.boton1 {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.boton2{
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.boton3{
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.divFooter {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 160, 0);
+    color: white;
+}
